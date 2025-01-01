@@ -1,23 +1,12 @@
-function solve(countryName) {
-    switch (countryName) {
-        case `USA`:
-            console.log(`English`);
-            break;
-        case `England`:
-            console.log(`English`);
-            break;
-        case `Spain`:
-            console.log(`Spanish`);
-            break;
-        case `Argentina`:
-            console.log(`Spanish`);
-            break;
-        case `Mexico`:
-            console.log(`Spanish`);
-            break;
-        default:
-            console.log(`unknown`)
-            break;
+function foreignLanguages(countryName) {
+    if (countryName === `England` || countryName === `USA`) {
+        console.log(`English`);
+    }
+    else if (countryName === `Spain` || countryName === `Argentina` || countryName === `Mexico`) {
+        console.log(`Spanish`);
+    }
+    else {
+        console.log(`unknown`);
     }
 }
-solve(`USA`)
+foreignLanguages(`USA`);

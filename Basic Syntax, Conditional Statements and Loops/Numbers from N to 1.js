@@ -1,9 +1,6 @@
-function solve(number) {
-    let copyNumber = number;
-    for (let i = 0; i < number; i++) {
-        console.log(copyNumber);
-        copyNumber--;
-        
+function numbersFromNToOne(num) {
+    for (let i = num; i > 0; i--) {
+        console.log(i);
     }
 }
-solve(5)
+numbersFromNToOne(5)

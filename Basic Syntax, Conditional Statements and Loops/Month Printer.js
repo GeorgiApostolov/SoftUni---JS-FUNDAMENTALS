@@ -1,4 +1,4 @@
-function solve(month) {
+function monthPrinter(month) {
     switch (month) {
         case 1:
             console.log(`January`);
@@ -36,11 +36,10 @@ function solve(month) {
         case 12:
             console.log(`December`);
             break;
-
+                
         default:
             console.log(`Error!`);
             break;
     }
 }
-solve(2)
-solve(13)
+monthPrinter(2);

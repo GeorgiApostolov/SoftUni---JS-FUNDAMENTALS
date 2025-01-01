@@ -1,7 +1,6 @@
-function solve(firstNumber, secondNumber) {
-    while (firstNumber >= secondNumber) {
-        console.log(firstNumber);
-        firstNumber--;
+function numbersFromMToN(m, n) {
+    for (let i = m; i >= n; i--) {
+        console.log(i);
     }
 }
-solve(6, 2)
+numbersFromMToN(6, 2)

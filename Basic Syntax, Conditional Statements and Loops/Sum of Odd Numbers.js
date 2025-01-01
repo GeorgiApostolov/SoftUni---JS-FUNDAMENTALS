@@ -1,14 +1,12 @@
-function solve(n) {
-    let odd = 1;
+function sumOfOddNum(num) {
     let sum = 0;
-    for (let i = 0; i < n; i++) {
-        console.log(odd);
-        sum+=odd;
-        odd+=2;
-        
+    let oddNumbers = 1;
+    for (let i = 1; i <= num; i++) {
+        console.log(oddNumbers);
+        sum += oddNumbers;
+        oddNumbers += 2;
         
     }
     console.log(`Sum: ${sum}`);
 }
-solve(5)
-solve(3)
+sumOfOddNum(5)

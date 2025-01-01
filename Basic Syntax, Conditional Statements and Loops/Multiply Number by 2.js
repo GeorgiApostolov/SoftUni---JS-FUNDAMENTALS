@@ -1,4 +1,4 @@
-function solve(a) {
-    console.log(a*2);
+function multiplyBy2(num) {
+    console.log(num*2);
 }
-solve(5)
+multiplyBy2(2);
